@@ -6,7 +6,7 @@ public class PacientBuilder implements IBuilder{
 
     //var cu o optiune obligatorie
     public PacientBuilder(Boolean arePatRabatabil) {
-        this.pacient = new Pacient(arePatRabatabil,false,false);
+        this.pacient = new Pacient(arePatRabatabil,false,false, false);
     }
 
    public PacientBuilder setArePatRabatabil(Boolean arePatRabatabil) {
@@ -21,6 +21,11 @@ public class PacientBuilder implements IBuilder{
 
    public PacientBuilder setArePapuciCamera(Boolean arePapuciCamera) {
         this.pacient.setArePapuciCamera(arePapuciCamera);
+        return this;
+    }
+
+    public PacientBuilder setAreHalat(Boolean areHalat) {
+        this.pacient.setAreHalat(areHalat);
         return this;
     }
 
