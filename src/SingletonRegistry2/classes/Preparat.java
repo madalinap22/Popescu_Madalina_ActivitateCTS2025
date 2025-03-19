@@ -7,6 +7,10 @@ public class Preparat {
     private int nrMinuteGatire;
     private int gradeGatire;
 
+    public int getGradeGatire() {
+        return gradeGatire;
+    }
+
     public Preparat(String denumire, int nrMinuteGatire, int gradeGatire) {
         this.denumire = denumire;
         this.nrMinuteGatire = nrMinuteGatire;

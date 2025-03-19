@@ -1,6 +1,7 @@
 package SingletonRegistry2.main;
 
 import SingletonRegistry2.classes.Cuptor;
+import SingletonRegistry2.classes.CuptorMultiplu;
 import SingletonRegistry2.classes.Preparat;
 
 import java.util.ArrayList;
@@ -22,6 +23,20 @@ public class Main {
         Cuptor.getInstance().addPreparat(p2);
         Cuptor.getInstance().addPreparat(p3);
         System.out.println(Cuptor.getInstance());
+
+
+        //
+        List<Preparat> lista2= new ArrayList<>();
+        lista2.add(p1);
+        lista2.add(p2);
+        CuptorMultiplu cm = CuptorMultiplu.getInstance(1);
+        System.out.println("Cuptor multiplu: "+cm);
+
+       CuptorMultiplu.addPreparat(p1);
+       CuptorMultiplu.addPreparat(p2);
+
+       cm.afisare();
+
 
 
     }

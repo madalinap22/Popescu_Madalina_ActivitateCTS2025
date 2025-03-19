@@ -2,6 +2,7 @@ package FactoryMethod.main;
 
 import FactoryMethod.classes.IPersonalSpital;
 import FactoryMethod.factories.FactoryAsistent;
+import FactoryMethod.factories.FactoryMedic;
 import FactoryMethod.factories.IFactory;
 
 public class Main {
@@ -15,5 +16,7 @@ public class Main {
         FactoryAsistent a1 = new FactoryAsistent();
         method(a1);
 
+        FactoryMedic m1 = new FactoryMedic();
+        method(m1);
     }
 }
