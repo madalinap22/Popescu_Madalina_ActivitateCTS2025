@@ -20,7 +20,9 @@ public class Main {
         lista.add("paracetamol");
 
         IReteta reteta = new Reteta(111, lista);
+        reteta.printeazaReteta();
 
+        System.out.println("Exemplificare Adapter:");
         Adapter adapter = new Adapter(reteta);
         adapter.achizitioneazaMedicament();
     }

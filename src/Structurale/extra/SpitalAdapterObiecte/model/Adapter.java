@@ -3,7 +3,7 @@ package Structurale.extra.SpitalAdapterObiecte.model;
 import Structurale.extra.SpitalAdapterObiecte.model.softNou.IReteta;
 
 //soft deja existent
-//la adapterul ed obiecte implememtam interfata existenta
+//la adapterul de obiecte implementam interfata existenta
 public class Adapter implements IMedicament{
     //un obiect de tipul clasei noi
     private IReteta reteta;

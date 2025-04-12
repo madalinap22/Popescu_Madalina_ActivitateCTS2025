@@ -11,10 +11,5 @@ public class Main {
 
         PachetMasina p = new PachetMasina("audi", 266);
         p.rezervaPachet();
-
-
-
-
-
     }
 }

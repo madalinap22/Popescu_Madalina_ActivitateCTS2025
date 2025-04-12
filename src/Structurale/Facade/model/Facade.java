@@ -1,7 +1,6 @@
 package Structurale.Facade.model;
 
 public class Facade {
-
     public void rezervaPachet(){
         Hotel hotel = new Hotel("Patria", 200, true);
         hotel.rezervaCamera();

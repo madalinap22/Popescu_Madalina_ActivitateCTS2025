@@ -9,6 +9,6 @@ public class MasinaInchiriata extends Masina{
 
     @Override
     public void inchiriazaMasina() {
-        System.out.println("S-a inchiriat masina");
+        System.out.println("S-a inchiriat masina - din clasa MasinaInchiriata");
     }
 }
