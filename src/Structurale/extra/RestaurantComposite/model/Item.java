@@ -8,8 +8,6 @@ public class Item implements IOptiune{
         this.denumireItem = denumireItem;
     }
 
-
-
     @Override
     public void adaugaNod(IOptiune optiune) throws Exception {
        throw new Exception("Acesta este un nod frunza");

@@ -8,7 +8,6 @@ public class Sectiune implements IOptiune{
     private String denumireSectiune;
     private List<IOptiune> optiuni = new ArrayList<>(); //contine Item-uri sau alte sectiuni; deci folosim interfata
 
-
     public Sectiune(String denumireSectiune) { //doar cu 1 parametru; lista va fi in metoda adaugaNod()
         this.denumireSectiune = denumireSectiune;
     }

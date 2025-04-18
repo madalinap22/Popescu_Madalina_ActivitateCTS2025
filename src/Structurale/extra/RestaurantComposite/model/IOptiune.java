@@ -5,7 +5,4 @@ public interface IOptiune {
     void stergeNod(IOptiune optiune) throws Exception;
     void getNod(int index) throws Exception;
     void descriere();
-
-
-
 }
