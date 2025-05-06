@@ -26,9 +26,8 @@ public class PachetTuristic {
         return sb.toString();
     }
 
-    //salvarea si reveirea la stare
+    //salvarea si revenirea la stare
     //salvare intr-un nou obiect
-
     public MementoPachetTuristic salvareMemento(){
         return new MementoPachetTuristic(this.getPret());
     }

@@ -1,8 +1,8 @@
 package Structurale.Decorator.model;
 
-public class PachetCazareDecorator extends PachetTuristicDecorator{
+public class PachetCazareDecorator extends APachetTuristicDecorator {
 
-    public PachetCazareDecorator(PachetTuristic pachet) {
+    public PachetCazareDecorator(IPachetTuristic pachet) {
         super(pachet);
     }
 

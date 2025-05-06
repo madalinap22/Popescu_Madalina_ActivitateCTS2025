@@ -1,7 +1,6 @@
 package Comportamentale.Template.model;
 
 public class PachetTransport extends  APachetTuristic{
-
     public PachetTransport(int cod) {
         super(cod);
     }

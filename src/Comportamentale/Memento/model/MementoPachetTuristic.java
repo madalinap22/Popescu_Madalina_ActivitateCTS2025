@@ -1,7 +1,7 @@
 package Comportamentale.Memento.model;
 
 public class MementoPachetTuristic {
-    //salvam pretul; atributul din ceallata clasa
+    //salvam pretul; atributul din cealalta clasa
     private float pret;
 
     public MementoPachetTuristic(float pret) {

@@ -11,7 +11,6 @@ public class Main {
         IStare stare3 = new Platita();
 
         //schimbam comportamentul(obiectul) pe baza starii
-
         stare1.executa(rez);
     }
 }

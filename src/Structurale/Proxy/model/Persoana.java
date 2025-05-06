@@ -1,9 +1,9 @@
 package Structurale.Proxy.model;
 
 public class Persoana {
-
     private String nume;
     private int varsta;
+
 
     public Persoana(String nume, int varsta) {
         this.nume = nume;

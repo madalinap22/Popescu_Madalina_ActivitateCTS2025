@@ -1,14 +1,11 @@
 package Structurale.Decorator.model;
 
-public abstract class PachetTuristicDecorator implements PachetTuristic{
-    protected PachetTuristic pachet;
+public abstract class APachetTuristicDecorator implements IPachetTuristic {
+    protected IPachetTuristic pachet;
 
-    public PachetTuristicDecorator(PachetTuristic pachet) {
+    public APachetTuristicDecorator(IPachetTuristic pachet) {
         this.pachet = pachet;
     }
-
-
-
     @Override
     public void rezervaPachet() {
         this.pachet.rezervaPachet();

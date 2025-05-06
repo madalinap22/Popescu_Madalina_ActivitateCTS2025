@@ -12,7 +12,6 @@ public class Rezervare {
     }
 
     //setter pt stare + getter
-
     public IStare getStare() {
         return stare;
     }

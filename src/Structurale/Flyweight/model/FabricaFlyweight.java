@@ -9,7 +9,6 @@ public class FabricaFlyweight {
     public FabricaFlyweight() {
     }
 
-
     public IPachetTuristic getPachetTuristic(int cod, String hotel, String destinatie, boolean micDejun){
         IPachetTuristic pachetTuristic = pachete.get(cod);
         if (pachetTuristic == null){
@@ -18,8 +17,5 @@ public class FabricaFlyweight {
         }
         return pachetTuristic;
     }
-
-
-
 
 }

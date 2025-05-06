@@ -2,14 +2,14 @@ package Structurale.Decorator.main;
 
 import Structurale.Decorator.model.PachetCazare;
 import Structurale.Decorator.model.PachetCazareDecorator;
-import Structurale.Decorator.model.PachetTuristic;
-import Structurale.Decorator.model.PachetTuristicDecorator;
+import Structurale.Decorator.model.IPachetTuristic;
+import Structurale.Decorator.model.APachetTuristicDecorator;
 
 public class Main {
     public static void main(String[] args) {
-        PachetTuristic pachet = new PachetCazare("lisabona",4500,true);
+        IPachetTuristic pachet = new PachetCazare("lisabona",4500,true);
         pachet.rezervaPachet();
-        PachetTuristicDecorator pachetTuristicDecorator = new PachetCazareDecorator(pachet);
+        APachetTuristicDecorator pachetTuristicDecorator = new PachetCazareDecorator(pachet);
         pachetTuristicDecorator.anuleazaRezervare();
         pachetTuristicDecorator.rezervaPachet();
     }

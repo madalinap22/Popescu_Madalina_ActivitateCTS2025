@@ -1,6 +1,6 @@
 package Structurale.Decorator.model;
 
-public class PachetCazare implements PachetTuristic{
+public class PachetCazare implements IPachetTuristic {
 
     private String destinatie;
     private int pret;
@@ -28,6 +28,6 @@ public class PachetCazare implements PachetTuristic{
 
     @Override
     public void rezervaPachet() {
-        System.out.println("S-a rezervat pachetul cu destinatia "+destinatie);
+        System.out.println("S-a rezervat pachet cazare cu destinatia "+destinatie);
     }
 }

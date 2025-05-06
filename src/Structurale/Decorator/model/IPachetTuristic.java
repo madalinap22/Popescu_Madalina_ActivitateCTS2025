@@ -1,5 +1,5 @@
 package Structurale.Decorator.model;
 
-public interface PachetTuristic {
+public interface IPachetTuristic {
     void rezervaPachet();
 }

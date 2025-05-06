@@ -22,6 +22,4 @@ public void afisare(){
     }
 }
 
-
-
 }

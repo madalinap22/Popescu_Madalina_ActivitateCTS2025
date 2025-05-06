@@ -29,6 +29,5 @@ public class Main {
         p1.revenireMemento(memento4);
         System.out.println(p1);
 
-
     }
 }

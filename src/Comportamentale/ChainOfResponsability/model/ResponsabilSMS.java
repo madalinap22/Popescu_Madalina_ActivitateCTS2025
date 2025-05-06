@@ -1,7 +1,6 @@
 package Comportamentale.ChainOfResponsability.model;
 
 public class ResponsabilSMS extends AResponsabil {
-
     @Override
     public void notifica(Client c, String mesaj) {
         if(c.getNrTelefon()!=null){
