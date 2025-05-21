@@ -1,4 +1,4 @@
-package Structurale.extra.FarmacieFlyweight_no.model;
+package Structurale.extra.FarmacieDecorator.model;
 
 import Structurale.extra.FarmacieDecorator.model.ABonDeCasaDecorator;
 import Structurale.extra.FarmacieDecorator.model.BonDeCasa;
